@@ -27,6 +27,7 @@ public class Main_7576y {
 
         int m = Integer.parseInt(st.nextToken());
         int n = Integer.parseInt(st.nextToken());
+        int day = 0;
 
         Queue<Pair> tomatoQueue = new LinkedList<>();
         for (int i = 0; i < n; i++) {
@@ -38,11 +39,6 @@ public class Main_7576y {
                 }
             }
         } // end of input
-
-        if (n * m == tomatoQueue.size()) {
-            System.out.println(0);
-            return;
-        } // 저장될 때부터 모든 토마토가 익어있는 상태
 
         while (!tomatoQueue.isEmpty()) {
             Pair cur = tomatoQueue.poll();
@@ -57,19 +53,17 @@ public class Main_7576y {
                     tomatoQueue.add(new Pair(nx, ny));
                 }
             }
+            day = map[cur.x][cur.y];
         }
 
-        int day = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (map[i][j] == 0) {
                     System.out.println(-1);
                     return;
                 }
-                day = Math.max(map[i][j], day);
             }
         } // 토마토가 모두 익지 못하는 상황
-
         System.out.println(day - 1);
     }
 

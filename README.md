@@ -25,6 +25,7 @@
 ## BFS
 - S1.1926번[(그림)](https://www.acmicpc.net/problem/1926) : BFS 기본 유형을 다지기 위한 문제. 응용하지 않아도 되서 처음 시작하는 문제로 풀기 좋다.
 - S1.2178번[(미로탐색)](https://www.acmicpc.net/problem/2178) : BFS 기본 유형을 다지기 위한 문제2. bfs를 이용한 시작점으로부터 다른 지점까지 거리 계산 문제
+- G5.7576번[(토마토)](https://www.acmicpc.net/problem/7576) : BFS 기본 유형을 다지기 위한 문제3. 시작점이 여러개인 경우!
 ## DFS
 ## 시뮬레이션
 ## DP
