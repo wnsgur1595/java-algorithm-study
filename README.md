@@ -27,6 +27,7 @@
 - S1.2178번[(미로탐색)](https://www.acmicpc.net/problem/2178) : BFS 기본 유형을 다지기 위한 문제2. bfs를 이용한 시작점으로부터 다른 지점까지 거리 계산 문제
 - G5.7576번[(토마토)](https://www.acmicpc.net/problem/7576) : BFS 기본 유형을 다지기 위한 문제3. 시작점이 여러개인 경우!
 - G4.4179번[(불)](https://www.acmicpc.net/problem/4179) : BFS 기본 유형을 다지기 위한 문제4. 시작점이 여러개인 경우(불) + 시작점이 두 종료인 경우(불/지훈)
+- S1.1697번[(숨바꼭질)](https://www.acmicpc.net/problem/1697) : 상하좌우가 아닌 다른 방향으로 이동하는 형태의 bfs 
 ## DFS
 - G5.1759번[(암호만들기)](https://www.acmicpc.net/problem/1759) : 조합의 기본 유형을 다지기 위한 문제. DFS는 순열, 조합, 백트래킹을 위해 사용하는 것 같기도..?
 ## 시뮬레이션
